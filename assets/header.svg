@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">BrockerUA — Software Engineering and Infrastructure</title>
+<desc id="desc">Minimal dark graphite GitHub banner with green accents and subtle architectural grid.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1110"/><stop offset="1" stop-color="#121A19"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#64BB86"/><stop offset="1" stop-color="#A4E6B8"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#23362E" stroke-width="1" opacity=".45"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="330" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="330" fill="url(#bg)"/>
+<rect x="670" width="530" height="330" fill="url(#grid)" opacity=".8"/>
+<path d="M700 330L930 0M830 330L1060 0M960 330L1190 0" stroke="#315B43" opacity=".2" stroke-width="2"/>
+<path d="M0 0H1200" stroke="#75D89A" stroke-width="5"/>
+<rect x="65" y="65" width="6" height="46" rx="3" fill="url(#accent)"/>
+<text x="94" y="87" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#8FC7A5">SOFTWARE / SYSTEMS / INFRASTRUCTURE</text>
+<text x="65" y="194" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="#F0F6F2">BROCKER<tspan fill="#87D5A3">UA</tspan></text>
+<text x="69" y="239" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#9AAFA4" letter-spacing="1">Backend engineering  ·  Linux  ·  Open source</text>
+<path d="M69 270H535" stroke="#385548" stroke-width="1"/>
+<text x="69" y="298" font-family="monospace" font-size="15" fill="#7AAB8B">github.com/brocker96</text>
+<g transform="translate(975 167)" fill="none" stroke="#75C893" stroke-width="2.5" opacity=".68">
+ <path d="M-83 -47L0 -94L83 -47V47L0 94L-83 47Z"/>
+ <path d="M-48 -28L0 -55L48 -28V28L0 55L-48 28Z"/>
+ <path d="M-83 -47L-48 -28M83 -47L48 -28M83 47L48 28M-83 47L-48 28"/>
+ <path d="M0 -55V-94M0 55V94"/>
+ <circle cx="0" cy="0" r="10" fill="#75C893" stroke="none"/>
+</g>
+</g>
+</svg>
